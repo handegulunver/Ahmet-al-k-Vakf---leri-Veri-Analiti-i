@@ -1,0 +1,54 @@
+Enerji Perakende Veri Analizi – Case Study
+📌 Proje Amacı
+
+Bu proje, Amasya iline bağlı Hamamözü, Gümüşhacıköy ve Göynücek ilçelerine ait elektrik tüketim (tahakkuk) ve ödeme (tahsilat) verilerinin analiz edilmesini amaçlamaktadır.
+Çalışma, bir veri bilimci yaklaşımıyla veri keşfi, görselleştirme ve iş önerileri üretme adımlarını içermektedir.
+
+📂 Veri Seti
+
+Projede kullanılan Excel dosyası 5 sayfadan oluşmaktadır:
+
+Tahsilat: Ödeme kayıtları
+
+Tahsilat 1: Fatura ve ödeme zamanlaması
+
+Tahakkuk: Hamamözü tüketim verileri
+
+Tahakkuk 1: Gümüşhacıköy tüketim verileri
+
+Tahakkuk 2: Göynücek tüketim verileri
+
+Toplamda yaklaşık 2.7 milyon kayıt ve ~28.000 tekil müşteri (sozlesme_hesap_no) bulunmaktadır.
+
+🧠 Analiz Süreci
+Notebook 01 – Veri Keşfi ve Tanımlayıcı İstatistik
+
+Veri yapısının incelenmesi (info, describe)
+
+İlçe bazında müşteri sayıları
+
+Tahakkuk verilerinin birleştirilmesi
+
+Negatif ve aykırı kWh değerlerinin tespiti
+
+Hesap sınıfına göre tüketim istatistikleri
+
+Notebook 02 – Veri Görselleştirme
+
+İlçe bazlı aylık ortalama tüketim (mevsimsellik)
+
+Hesap sınıfı dağılımlarının karşılaştırılması
+
+Zamanında / geç ödeme oranları
+
+kWh tüketim dağılımları (histogram, boxplot)
+
+Notebook 03 – Veri Hikayeleştirme ve İş Önerileri
+
+İlçeler arası tüketim farklarının analizi
+
+Müşteri segmentasyonu
+
+Geç ödeme riski olan müşteri gruplarının belirlenmesi
+
+Tahsilat süreçleri için iş önerileri
